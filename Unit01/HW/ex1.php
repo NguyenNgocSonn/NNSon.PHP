@@ -14,7 +14,7 @@
 //a!=0
 	if ($a != 0) {
 		if ($delta > 0){
-			echo " Phương trình có 2 nghiệm riêng biệt: "."x1 =".(((-$b)+sqrt($delta))/2*$a)." và "."x2 = " . (((-$b)-sqrt($delta))/2*$a) ;
+			echo " Phương trình có 2 nghiệm phân biệt: "."x1 =".(((-$b)+sqrt($delta))/2*$a)." và "."x2 = " . (((-$b)-sqrt($delta))/2*$a) ;
 		}
 		else if ($delta == 0) {
 			echo " Phương trình có 1 nghiệm duy nhất: "." x1 = x2 = ".((-$b)/2*$a) ;
