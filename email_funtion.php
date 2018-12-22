@@ -29,8 +29,8 @@
         $mail->SMTPAuth   = true; //Xác thực SMTP
         $mail->Username   = "huyennu.1907@gmail.com"; // Tên đăng nhập tài khoản Gmail
         $mail->Password   = "Nunu19071999"; //Mật khẩu của gmail
-        $mail->SetFrom("mainhongaydo@gmail.com", "Thu Huyền Nguyễn"); // Thông tin người gửi
-        $mail->AddReplyTo("mainhongaydo@gmail.com","Thu Huyền Nguyễn");// Ấn định email sẽ nhận khi người dùng reply lại.
+        $mail->SetFrom("huyennu.1907@gmail.com", "Thu Huyền Nguyễn"); // Thông tin người gửi
+        $mail->AddReplyTo("huyennu.1907@gmail.com","Thu Huyền Nguyễn");// Ấn định email sẽ nhận khi người dùng reply lại.
         $mail->AddAddress($email_recive, $name);//Email của người nhận
         //$mail->AddCC($email_recive, $name);//Email của người nhận
         $mail->Subject = $subject; //Tiêu đề của thư
